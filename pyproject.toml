@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aa989190f363e46d_brain_games"
-version = "0.1.0"
+version = "0.2.0"
 description = "hexlet brain games"
 authors = ["aa989190f363e46d"]
 packages = [
