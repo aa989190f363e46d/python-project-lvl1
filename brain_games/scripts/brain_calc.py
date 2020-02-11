@@ -1,10 +1,12 @@
 from prompt import string as get_str
-from random import randint
+from random import randint, choice
 from sys import maxsize
+from operator import add, sub, mul
+from math import log2
 
 TURNS_COUNT = 3
-ANSWERS = ('no', 'yes')
-MAXINT = maxsize * 2 + 2
+MAXINT = log2(maxsize) * 2 + 2
+OPERATORS = {'+': add, '-': sub, '*': mul}
 
 def welcome(game_rules):
     print("Welcome to Brain Games!")
@@ -31,14 +33,15 @@ def play_game(name):
 
 
 def make_turn():
-    num = randint(1,MAXINT)
-    correct_answer = ANSWERS[num % 2 == 0]
-    print(f"Question: {num}")
+    x, y = randint(1, MAXINT), randint(1, MAXINT)
+    op = choice(list(OPERATORS.keys())) 
+    correct_answer = str(OPERATORS[op](x, y))
+    print(f"Question: {x} {op} {y}")
     players_answer = get_str("Your answer: ")
     return (players_answer, correct_answer)
 
 def main():
-    rules_text = "Answer \"yes\" if number even otherwise answer \"no\"."
+    rules_text = "What is the result of the expression?"
     welcome(rules_text)
     print()
     name = ask_name()
