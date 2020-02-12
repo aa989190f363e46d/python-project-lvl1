@@ -1,5 +1,5 @@
 from brain_games.scripts.cli import welcome_user
-from brain_games.games import master, even, calc
+from brain_games.games import master, even, calc, gcd
 
 
 def greeting():
@@ -18,6 +18,10 @@ def play_even():
 
 def play_calc():
     master.make_game(calc)
+
+
+def play_gcd():
+    master.make_game(gcd)
 
 
 if __name__ == "__main__":

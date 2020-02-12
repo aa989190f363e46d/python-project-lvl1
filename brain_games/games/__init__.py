@@ -1,4 +1,4 @@
-from brain_games.games import even, calc, master
+from brain_games.games import master, even, calc, gcd
 
 
-__all__ = ('master', 'even', 'calc')
+__all__ = ('master', 'even', 'calc', 'gcd')

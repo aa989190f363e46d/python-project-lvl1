@@ -14,8 +14,9 @@ def get_turn_cond():
 
 
 def main():
-    pass
+    master.make_game(RULES_TEXT, get_turn_cond)
 
 
 if __name__ == '__main__':
+    from brain_games.games import master
     main()
