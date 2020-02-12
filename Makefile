@@ -2,13 +2,13 @@ publish:
 	 poetry publish -r pypi-test
 
 install:
-	@poetry install
+	poetry install
 
 test:
-	poetry run pytest hexlet_python_package tests
+	poetry run pytest brain_games tests
 
 lint:
-	poetry run flake8 hexlet_python_package
+	poetry run flake8 brain_games
 
 selfcheck:
 	poetry check
@@ -16,6 +16,6 @@ selfcheck:
 check: selfcheck test lint
 
 build:
-	@poetry build
+	poetry build
 
 .PHONY: install lint selfcheck check build
