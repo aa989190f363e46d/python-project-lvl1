@@ -1,4 +1,5 @@
 from random import randint
+
 from sys import maxsize
 
 ANSWERS = ('no', 'yes')

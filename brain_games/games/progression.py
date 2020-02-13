@@ -3,11 +3,10 @@ from random import randint, choice
 from sys import maxsize
 from math import log2
 
-TURNS_COUNT = 3
 MAXINT = log2(maxsize) * 2 + 2
 LENGTH = 10
 
-RULES_TEXT = "What number is missing \033[1min the progression?"
+RULES_TEXT = "What number is missing \033[1min\033[0m the progression?"
 
 
 def get_turn_cond():

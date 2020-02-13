@@ -1,5 +1,5 @@
 from brain_games.scripts.cli import welcome_user
-from brain_games.games import master, even, calc, gcd, progression
+from brain_games.games import master, even, calc, gcd, progression, prime
 
 
 def greeting():
@@ -26,6 +26,10 @@ def play_gcd():
 
 def play_progression():
     master.make_game(progression)
+
+
+def play_prime():
+    master.make_game(prime)
 
 
 if __name__ == "__main__":

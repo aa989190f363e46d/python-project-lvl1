@@ -4,7 +4,6 @@ from math import gcd
 from sys import maxsize
 from math import log2
 
-TURNS_COUNT = 3
 MAXINT = log2(maxsize) * 2 + 2
 
 RULES_TEXT = "Find the greatest common divisor of given numbers."
