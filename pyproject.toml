@@ -1,18 +1,23 @@
 [tool.poetry]
 name = "aa989190f363e46d_brain_games"
-version = "0.8.0"
+version = "0.9.0"
 description = "hexlet brain games"
 authors = ["aa989190f363e46d"]
+repository = "https://github.com/aa989190f363e46d/python-project-lvl1"
 packages = [
     { include = "brain_games" }
+]
+classifiers = [
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Topic :: Education"
 ]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+prompt = "^0.4"
 
 [tool.poetry.dev-dependencies]
-prompt = "^0.4"
-flake8 = "^3.7.9"
+flake8 = "^3.7"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
