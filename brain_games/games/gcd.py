@@ -13,12 +13,3 @@ def get_turn_cond():
     x, y = randint(1, MAXINT), randint(1, MAXINT)
     return (f"{x} {y}",
             gcd(x, y))
-
-
-def main():
-    master.make_game(RULES_TEXT, get_turn_cond)
-
-
-if __name__ == '__main__':
-    from brain_games.games import master
-    main()

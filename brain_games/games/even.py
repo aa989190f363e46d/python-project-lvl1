@@ -12,12 +12,3 @@ def get_turn_cond():
     num = randint(1, MAXINT)
     correct_answer = ANSWERS[num % 2 == 0]
     return (f"{num}", correct_answer)
-
-
-def main():
-    master.make_game(RULES_TEXT, get_turn_cond)
-
-
-if __name__ == '__main__':
-    from brain_games.games import master
-    main()

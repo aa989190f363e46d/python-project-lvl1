@@ -1,5 +1,6 @@
 from brain_games.scripts.cli import welcome_user
-from brain_games.games import master, even, calc, gcd, progression, prime
+from brain_games.games import even, calc, gcd, progression, prime
+from brain_games.engines import simple_3_round as master
 
 
 def greeting():

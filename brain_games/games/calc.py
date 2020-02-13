@@ -16,12 +16,3 @@ def get_turn_cond():
     op = choice(list(OPERATORS.keys()))
     return (f"{x} {op} {y}",
             OPERATORS[op](x, y))
-
-
-def main():
-    master.make_game(RULES_TEXT, get_turn_cond)
-
-
-if __name__ == '__main__':
-    from brain_games.games import master
-    main()
