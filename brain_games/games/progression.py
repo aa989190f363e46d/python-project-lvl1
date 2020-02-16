@@ -1,9 +1,6 @@
 from random import randint, choice
 
-from sys import maxsize
-from math import log2
-
-MAXINT = log2(maxsize) * 2 + 2
+MAXINT = 100
 LENGTH = 10
 
 RULES_TEXT = "What number is missing \033[1min\033[0m the progression?"

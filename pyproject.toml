@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aa989190f363e46d_brain_games"
-version = "0.9.0"
+version = "0.10.0"
 description = "hexlet brain games"
 authors = ["aa989190f363e46d"]
 repository = "https://github.com/aa989190f363e46d/python-project-lvl1"
@@ -21,11 +21,11 @@ flake8 = "^3.7"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_games:play_even"
-brain-calc = "brain_games.scripts.brain_games:play_calc"
-brain-gcd = "brain_games.scripts.brain_games:play_gcd"
-brain-progression = "brain_games.scripts.brain_games:play_progression"
-brain-prime = "brain_games.scripts.brain_games:play_prime"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
 [build-system]
 requires = ["poetry>=0.12"]

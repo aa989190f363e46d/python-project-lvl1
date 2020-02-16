@@ -5,3 +5,4 @@ dist/
 .venv/
 *~
 pypi-token.pypi
+poetry.lock
