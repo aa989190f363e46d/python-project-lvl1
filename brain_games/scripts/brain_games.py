@@ -1,36 +1,9 @@
-from brain_games.scripts.cli import welcome_user
-from brain_games.games import even, calc, gcd, progression, prime
-from brain_games.engines import simple_3_round as master
-
-
-def greeting():
-    print("Welcome to the Brain Games!")
-    print()
+from brain_games.engines.cli import welcome_to_game, ask_name, greet
 
 
 def main():
-    greeting()
-    welcome_user()
-
-
-def play_even():
-    master.make_game(even)
-
-
-def play_calc():
-    master.make_game(calc)
-
-
-def play_gcd():
-    master.make_game(gcd)
-
-
-def play_progression():
-    master.make_game(progression)
-
-
-def play_prime():
-    master.make_game(prime)
+    welcome_to_game('')
+    greet(ask_name())
 
 
 if __name__ == "__main__":

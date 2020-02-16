@@ -1,12 +1,15 @@
 from random import randint
-from math import gcd
 
-from sys import maxsize
-from math import log2
-
-MAXINT = log2(maxsize) * 2 + 2
+MAXINT = 100
 
 RULES_TEXT = "Find the greatest common divisor of given numbers."
+
+
+def gcd(x, y):
+    v, u = min(x, y), max(x, y)
+    while v:
+        u, v = v, u % v
+    return abs(u)
 
 
 def get_turn_cond():

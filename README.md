@@ -6,22 +6,36 @@
 
 [![Build Status](https://travis-ci.com/aa989190f363e46d/python-project-lvl1.svg?branch=master)](https://travis-ci.com/aa989190f363e46d/python-project-lvl1)
 
-# Brain even game
+# Brain games
 
-[![asciicast](https://asciinema.org/a/JVPgXyOGjSetYYu4YwbRjak2y.svg)](https://asciinema.org/a/JVPgXyOGjSetYYu4YwbRjak2y)
+The suite of tiny games, than, maybe, will prevent players brains from going rusty. And, definitely, wil helps me to complete my first project at hexlet.io python profession track.
 
-# Brain calc game
+## Even game
 
-[![asciicast](https://asciinema.org/a/Lac63Uydqp76mmS52Mwnh9XYG.svg)](https://asciinema.org/a/Lac63Uydqp76mmS52Mwnh9XYG)
+Even or not, that is the question!.. Try to guess. Not everyone gets it.
 
-# Brain gcd game
+[![asciicast](https://asciinema.org/a/w3Cp7sMIS1tK4xFIYSzhH3IOv.svg)](https://asciinema.org/a/w3Cp7sMIS1tK4xFIYSzhH3IOv)
 
-[![asciicast](https://asciinema.org/a/56wJ4KThKWal5mpSyzkqUg0y5.svg)](https://asciinema.org/a/56wJ4KThKWal5mpSyzkqUg0y5)
+## Calc game
 
-# Brain progression game
+How about going back to basics? Welcome to 3'rd class. Can you right calculate it? let's get a look.
 
-[![asciicast](https://asciinema.org/a/SvC5RY1YQuUe6A9ydEaerGj9Y.svg)](https://asciinema.org/a/SvC5RY1YQuUe6A9ydEaerGj9Y)
+[![asciicast](https://asciinema.org/a/4LMu4tAztIyB1zuVAXP5PeAzh.svg)](https://asciinema.org/a/4LMu4tAztIyB1zuVAXP5PeAzh)
 
-# Brain game prime
+## Gcd game
 
-[![asciicast](https://asciinema.org/a/aGdOVKnclE3ZD52HeuSlwPjSx.svg)](https://asciinema.org/a/aGdOVKnclE3ZD52HeuSlwPjSx)
+Do you remember Euclid? That ancient guy loved to find proportionality, not so as Pythagoras, but enough for developing own algorithm for it. After couple of thousands years you still can practice in it. 
+
+[![asciicast](https://asciinema.org/a/CBF1iZKsqgAJGu1w1BeMvOuOs.svg)](https://asciinema.org/a/CBF1iZKsqgAJGu1w1BeMvOuOs)
+
+## Progression game
+
+Sometimes numbers disappear from their places. But it’s okay for you to return the fugitives to the ranks. Let's do it quick!
+
+[![asciicast](https://asciinema.org/a/XLBsq8PCQi4xcudgFHxRrPOgu.svg)](https://asciinema.org/a/XLBsq8PCQi4xcudgFHxRrPOgu)
+
+## Prime game
+
+Somebody think that calculations its ground of mathematics, but not. Truly salt of mathematic soils is prime numbers! Can you recognise any of them?
+
+[![asciicast](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC.svg)](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC)

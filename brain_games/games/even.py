@@ -1,14 +1,11 @@
 from random import randint
 
-from sys import maxsize
+MAXINT = 100
 
-ANSWERS = ('no', 'yes')
-MAXINT = maxsize * 2 + 2
-
-RULES_TEXT = "Answer \"yes\" if number even otherwise answer \"no\"."
+RULES_TEXT = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def get_turn_cond():
     num = randint(1, MAXINT)
-    correct_answer = ANSWERS[num % 2 == 0]
+    correct_answer = 'yes' if num % 2 == 0 else 'no'
     return (f"{num}", correct_answer)

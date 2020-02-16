@@ -1,18 +1,14 @@
 from random import randint
 from math import sqrt
 
-from sys import maxsize
-from math import log2
+MAXINT = 500
 
-ANSWERS = ('no', 'yes')
-MAXINT = log2(maxsize) * 2 + 2
-
-RULES_TEXT = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."  # noqa: E501
+RULES_TEXT = 'Answer "yes" if given number is prime. Otherwise answer "no".'  # noqa: E501
 
 
 def get_turn_cond():
     num = randint(1, MAXINT)
-    correct_answer = ANSWERS[is_prime(num)]
+    correct_answer = 'yes' if is_prime(num) else 'no'
     return (f"{num}", correct_answer)
 
 
