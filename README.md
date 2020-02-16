@@ -18,7 +18,7 @@ Even or not, that is the question!.. Try to guess. Not everyone gets it.
 
 ## Calc game
 
-How about going back to basics? Welcome to 3'rd class. Can you right calculate it? let's get a look.
+How about going back to basics? Welcome to the 3'rd class. Can you calculate it right? let's see.
 
 [![asciicast](https://asciinema.org/a/4LMu4tAztIyB1zuVAXP5PeAzh.svg)](https://asciinema.org/a/4LMu4tAztIyB1zuVAXP5PeAzh)
 
@@ -36,6 +36,6 @@ Sometimes numbers disappear from their places. But it’s okay for you to return
 
 ## Prime game
 
-Somebody think that calculations its ground of mathematics, but not. Truly salt of mathematic soils is prime numbers! Can you recognise any of them?
+Somebody thinks that calculations are the ground of mathematics, but not. Truly salt of mathematic soils is prime numbers! Can you recognise any of them?
 
 [![asciicast](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC.svg)](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC)
