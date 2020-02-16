@@ -36,10 +36,6 @@ Sometimes numbers disappear from their places. But it’s okay for you to return
 
 ## Prime game
 
-<<<<<<< HEAD
-Somebody think that calculations its ground of mathematics, but not. Truly salt of mathematic soils is prime numbers! Can you recognise any of them? 
-=======
 Somebody think that calculations its ground of mathematics, but not. Truly salt of mathematic soils is prime numbers! Can you recognise any of them?
->>>>>>> e63b22f32534948796bc9f2e0a0bd7a9d91d9dad
 
 [![asciicast](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC.svg)](https://asciinema.org/a/8AUTdMWSv9UVmEbBLIxP9y5kC)
