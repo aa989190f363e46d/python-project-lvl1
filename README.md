@@ -1,8 +1,8 @@
 # python-project-lvl1 @ hexlet.io
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ce5816f0b43f6ce6a94b/maintainability)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl1/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ce5816f0b43f6ce6a94b/test_coverage)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl1/test_coverage)
 
 [![Build Status](https://travis-ci.com/aa989190f363e46d/python-project-lvl1.svg?branch=master)](https://travis-ci.com/aa989190f363e46d/python-project-lvl1)
 
